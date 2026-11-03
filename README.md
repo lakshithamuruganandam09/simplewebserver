@@ -75,6 +75,7 @@ content = """
 	</table>
     </body>
 </html>
+"""
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
         print("Client request received")
@@ -87,13 +88,14 @@ httpd = HTTPServer(server_address,myhandler)
 print("my own webserver is running successfully...")
 httpd.serve_forever()
 
-"""
+
 ```
-
 ## OUTPUT:
+![alt text](image-2.png)
 
-<img width="1920" height="1080" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/0c0f8fa3-66ef-427c-9bb2-e23fdee809f6" />
-<img width="1920" height="1080" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/f54bba8f-a311-4758-90e0-e702661d515f" />
+![alt text](image-3.png)
+
+
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
