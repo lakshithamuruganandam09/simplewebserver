@@ -89,6 +89,7 @@ httpd.serve_forever()
 ## OUTPUT:
 
 <img width="1920" height="1080" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/0c0f8fa3-66ef-427c-9bb2-e23fdee809f6" />
+<img width="1920" height="1080" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/f54bba8f-a311-4758-90e0-e702661d515f" />
 
 
 ## RESULT:
